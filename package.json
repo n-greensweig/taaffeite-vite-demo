@@ -6,7 +6,6 @@
     "client": "vite",
     "build": "vite build",
     "server": "nodemon --watch server/server.js",
-    "start": "bode server/server.js | vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

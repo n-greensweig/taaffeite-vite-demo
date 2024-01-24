@@ -15,5 +15,5 @@ app.use('/api/example', exampleRouter);
 
 // Start the server
 app.listen(PORT, () => {
-    console.log('Listening on port:',  PORT);
+    console.log('Listening on port:', PORT);
 });
