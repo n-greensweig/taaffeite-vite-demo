@@ -5,7 +5,8 @@
   "scripts": {
     "client": "vite",
     "build": "vite build",
-    "server": "nodemon --watch server/server.js",
+    "server": "nodemon --watch server server/server.js",
+    "start": "node server/server.js | vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
